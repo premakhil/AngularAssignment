@@ -1,0 +1,57 @@
+.logo {
+  width: 6em;
+  height: 2em;
+  margin-left: 1em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  height: 60px;
+}
+
+.first-navbar img {
+  width: 110px;
+  margin-top: 16px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.first-navbar span {
+  margin-top: 5px;
+  margin-left: -3px;
+  color: white;
+}
+
+.SearchBar {
+  padding: 5px 80px;
+  text-align: left;
+  border-radius: 10px;
+  margin-left: 20em;
+  margin-bottom: 1em;
+}
+
+.Search-button {
+  margin-left: 1em;
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cart {
+  margin-left: 43em;
+  margin-top: 1em;
+}
+
+.orders {
+  z-index: 100;
+  color: white;
+}/*# sourceMappingURL=header.component.css.map */

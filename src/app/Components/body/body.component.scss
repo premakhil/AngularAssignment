@@ -1,0 +1,69 @@
+// .books-container {
+//     display: flex;
+// }
+body {
+    padding: 5px;
+}
+.books-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(231, 230, 230);
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.book-details{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .original-price {
+    color: black; 
+    
+  }
+
+  .desc{
+    margin-top: 10px;
+}
+
+.books-listing {
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.rating{
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.rating svg{
+    width: 15px;
+}
+.rating span{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #007185;
+}
